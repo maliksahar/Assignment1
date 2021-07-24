@@ -13,8 +13,7 @@ const  App=() =>{
      <h1>Counter</h1>
      <div  style={{ margin : "15%", width : "300" , height : "300" ,  padding :"5px" ,  justifyContent :"space-between"}}>
      <h1>{count} </h1>
-    <Button  variant="success"    onClick={ ()=> SetCount(count + 1)}> Increment</Button>
-    
+    <Button  variant="success"   onClick={ ()=> SetCount(count + 1)}> Increment</Button>
     <Button  variant="danger"  onClick= { ()=> SetCount(count - 1)}> Decrement</Button>
      </div>
      </center>
